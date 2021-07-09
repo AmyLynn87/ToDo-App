@@ -1,18 +1,38 @@
 body {
-    border: 1px solid #000;
-    border-radius: 5px;
+    
     text-align: center;
     max-width: 500px;
     margin: 20px auto;
-    padding: 20px;
+    
+}
+
+.App {
+    background-color: #b3d9d9;
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 h1 {
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    text-shadow: 5px 4px 5px rgba(0, 128, 128, 0.7);
+
 }
 
 .Item {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-family: 'Yomogi', cursive;
+    margin: 30px;
+}
+
+.Item .itemObj {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 0px rgba(255, 255, 255, 0.8);
+    
 }

@@ -6,7 +6,7 @@ const {item} = props;
     return (
         <div className="Item">
             <input type="checkbox" />
-            {item}
+            <span  className="itemObj">{item}</span>
         </div>
         );
 }
